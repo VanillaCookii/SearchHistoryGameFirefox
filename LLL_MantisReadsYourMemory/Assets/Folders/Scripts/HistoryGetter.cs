@@ -12,14 +12,16 @@ public class HistoryGetter
         Application.streamingAssetsPath + "/Histories/" + "ChromeHistory",
         Application.streamingAssetsPath + "/Histories/" + "BraveHistory",
         Application.streamingAssetsPath + "/Histories/" + "operaHistory",
-        Application.streamingAssetsPath + "/Histories/" + "edgeHistory"
-    };
+        Application.streamingAssetsPath + "/Histories/" + "edgeHistory",
+         Application.streamingAssetsPath + "/Histories/" + "FirefoxHistory"
+         };
 
     public static string[] historyDefaultLocs = {
         @"C:\Users\" + GetUsername() + @"\AppData\Local\Google\Chrome\User Data\Default\History",
         @"C:\Users\" + GetUsername() + @"\AppData\Local\BraveSoftware\Brave-Browser\User Data\Default\History",
         @"C:\Users\" + GetUsername() + @"\AppData\Roaming\Opera Software\Opera GX Stable\History",
         @"C:\Users\" + GetUsername() + @"\AppData\Local\Microsoft\Edge\User Data\Default\History",
+        @"C:\Users\" + GetUsername() + @"\AppData\Roaming\Mozilla\Firefox\Profiles\6ygp7d4k.default-release",
         //@"C:\Users\" + GetUsername() + @"\AppData\Local\Microsoft\Edge\User Data\Default\History",
     };
 
